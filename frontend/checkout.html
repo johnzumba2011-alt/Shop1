@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a href="/cart.html" class="back">← Volver al carrito</a>
+
+<h1 class="title">Checkout</h1>
+
+<div class="checkout">
+  <form id="checkoutForm">
+    <input type="text" placeholder="Nombre completo" required>
+    <input type="text" placeholder="Dirección" required>
+    <input type="text" placeholder="Ciudad" required>
+    <input type="text" placeholder="Código postal" required>
+
+    <button type="submit">Place order</button>
+  </form>
+
+  <div id="summary"></div>
+</div>
+
+<script src="checkout.js"></script>
+</body>
+</html>
